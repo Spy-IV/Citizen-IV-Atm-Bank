@@ -18,4 +18,4 @@ Script Converted And Edited By: SPY
 This system is converted from fivem 
 orginal link: https://github.com/jacobwi/new_banking
 
-![alt text](https://forum.cfx.re/t/tazio-new-banking-reskin/220487)
+![Preview](https://forum.cfx.re/uploads/default/original/3X/e/b/ebb9541641c974061661c648f9463482e0ff201c.jpeg))

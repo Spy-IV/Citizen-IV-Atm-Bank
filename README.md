@@ -18,4 +18,5 @@ Script Converted And Edited By: SPY
 This system is converted from fivem 
 orginal link: https://github.com/jacobwi/new_banking
 
-![alt text](https://camo.githubusercontent.com/eaebbd9574974d18f241dc00e1710c3f88fefeb76621699e721cab67a6dd6dfe/68747470733a2f2f692e696d6775722e636f6d2f626a664c4c72392e706e67)
+![Preview]
+(https://forum.cfx.re/uploads/default/original/3X/e/b/ebb9541641c974061661c648f9463482e0ff201c.jpeg)

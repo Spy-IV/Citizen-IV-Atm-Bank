@@ -2,7 +2,6 @@
 --==                                VARIABLES                                                   ==--
 --================================================================================================--
 inMenu                   = true
-local atbank             = false
 local bankMenu           = true
 local bankmoney          = 0 --change this to yours
 local money              = 0 --change this to yours
@@ -16,7 +15,7 @@ if bankMenu then
 	Citizen.CreateThread(function()
 		while true do
 			Citizen.Wait(0)
-			local px,py,pz = GetCharCoordinates(GetPlayerChar(-1), _f, _f, _f)
+			local px,py,pz = GetCharCoordinates(GetPlayerChar(-1))
 			local atmmodel = GetHashKey("gb_cashmachine01")
 			local atmmodel2 = GetHashKey("gb_cashmachine01_hi")
 			local atmmodel3 = GetHashKey("gb_cashmachine02")

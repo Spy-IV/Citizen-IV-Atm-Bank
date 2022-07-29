@@ -6,7 +6,7 @@ local bankMenu           = true
 local bankmoney          = 0 --change this to yours
 local money              = 0 --change this to yours
 local uiopen = false
-local ped = GetPlayerChar(-1)
+
 
 --===============================================
 --==             Core Threading                ==
@@ -15,6 +15,7 @@ if bankMenu then
 	Citizen.CreateThread(function()
 		while true do
 			Citizen.Wait(0)
+			local ped = GetPlayerChar(-1)
 			local px,py,pz = GetCharCoordinates(GetPlayerChar(-1))
 			local atmmodel = GetHashKey("gb_cashmachine01")
 			local atmmodel2 = GetHashKey("gb_cashmachine01_hi")

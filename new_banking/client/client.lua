@@ -7,6 +7,7 @@ local bankMenu           = true
 local bankmoney          = 0 --change this to yours
 local money              = 0 --change this to yours
 local uiopen = false
+local ped = GetPlayerChar(-1)
 
 --===============================================
 --==             Core Threading                ==
@@ -22,10 +23,9 @@ if bankMenu then
 			local atmmodel4 = GetHashKey("gb_cashmachine_hi")
 			if(DoesObjectOfTypeExistAtCoords(px, py, pz, 2.0, atmmodel) or DoesObjectOfTypeExistAtCoords(px, py, pz, 2.0, atmmodel2) or DoesObjectOfTypeExistAtCoords(px, py, pz, 2.0, atmmodel3) or DoesObjectOfTypeExistAtCoords(px, py, pz, 2.0, atmmodel4)) then
 				if(IsGameKeyboardKeyJustPressed(18)) then
-					if(uiopen == 0) then
+					if(uiopen == false) then
 						openUI()
 						TriggerServerEvent('bank:balance')
-						local ped = GetPlayerChar(-1)
 						SetPlayerControl(GetPlayerId(), false)
 						uiopen = true
 					else
